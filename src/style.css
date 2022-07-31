@@ -14,13 +14,6 @@ header {
   margin: auto;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-
 h1 {
   font-size: 96px;
 }
@@ -76,7 +69,6 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 20px;
 }
 
 .about-paragraphs p {

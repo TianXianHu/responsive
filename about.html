@@ -35,18 +35,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" aria-current="page" href="about.html"
+            <a class="nav-link active" href="index.html" title="home">Home</a>
+            <a class="nav-link" aria-current="page" href="about.html" title="about"
               >About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
+            <a class="nav-link" href="about.html#contact" title="contact">Contact me</a>
           </div>
         </div>
       </div>
     </nav>
     <br />
-    <h1>About me</h1>
-    <h3>Front-end developer from Kyiv, Ukraine</h3>
-    <div class="about-paragraphs text-center p-2 shadow">
+    <h1 class="row justify-content-center">About me</h1>
+    <h3 class="row justify-content-center">Front-end developer from Kyiv, Ukraine</h3>
+    <br>
+    <div class="about-paragraphs text-center p-2 shadow m-lg-2">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
           aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
@@ -70,11 +71,13 @@
       </div>
       <br />
     </div>
-    <div id="contact">
+    <div id="contact" class="mx-auto" style="width: 500px;">
       <h2>📮 Contact me</h2>
-      <a href="mailto:fancystacy@pm.me" class="email-link">
+      <a href="mailto:fancystacy@pm.me" class="email-link" title="email">
         Don't spam me please
       </a>
+      You may find the source of project
+      <a href="https://github.com/TianXianHu/responsive" class="email-link" title="github"> here</a>
     </div>
   </body>
 </html>
